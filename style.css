@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+#bars {
+  width: 90vw;
+  display: flex;
+  justify-content: space-around;
+  margin: 5vw;
+}
+
+#bars .bar {
+  background-color: rgb(33, 187, 154);
+  width: 1.5vw;
+  height: 100px;
+  align-self: baseline;
+}
